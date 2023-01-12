@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  background: url("img/formulario.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+form {
+  width: 40%;
+  height: 70%;
+  min-height: 300px;
+  min-width: 500px;
+  background-color: rgb(7, 1, 20);
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  overflow-y: scroll;
+
+}
+
+#tittle {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.0rem;
+
+}
+
+#tittle:hover {
+  opacity: 5px;
+}
+
+fieldset {
+  border: 3px solid #fa6b5b;
+}
+
+legend {
+  border: 1px solid #fa6b5b;
+  padding: 10px;
+  text-align: center;
+  background-color: #fa6b5b;
+  border-radius: 8px;
+
+}
+
+/* .section-box { */
+/* position: relative; */
+/* } */
+
+.input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fa6b5b;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 10px;
+}
+
+.section-message {
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  border: 1px solid #fa6b5b
+}
+
+#botao {
+  background-image: linear-gradient(to right, #ff9f95, #fa5341);
+  width: 30%;
+  border: none;
+  padding: 12px;
+  margin-bottom: 5px;
+  margin-left: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.0rem;
+
+}
+
+#botao:hover {
+  background-image: linear-gradient(to right, #e45c4d, #ee3925);
+
+}
+
+.name {
+  font-size: 1.0rem;
+  letter-spacing: 2px;
+  font-family: 'Abel', sans-serif;
+}
